@@ -4,6 +4,7 @@ import UseStateHook from './UseStateHook'
 import UseEffectHook from './UseEffectHook'
 import UseRefHook from './UseRefHook'
 import UseMemoHook from './useMemoHook'
+import UseCallBackHook from './UseCallBackHook'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -49,6 +50,7 @@ function App() {
       <UseEffectHook/>
       <UseRefHook/>
       <UseMemoHook/>
+      <UseCallBackHook/>
     </>
   )
 }
