@@ -1,12 +1,12 @@
-import { useState } from "react"
+import { useCallback, useState } from "react"
 import ChildOne from "./ChildOne";
 
 const UseCallBackHook = () =>{
 const [add , setAdd] = useState(0);
 
-const handleClick = () => {
+const handleClick = useCallback(() => {
     console.log("button Clicked ")
-}
+},[])
 
     return (
         <>

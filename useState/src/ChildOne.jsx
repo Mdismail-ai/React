@@ -1,9 +1,10 @@
-const ChildOne = ({UseCallBackHook}) =>{
+import React from "react"
+const ChildOne = ({handleClick}) =>{
     console.log("component-rerenderd")
     return (<>
 
-        <button onClick={UseCallBackHook}>Click me From Child </button>
+        <button onClick={handleClick}>Click me From Child </button>
     </>)
 }
-// this will not work export default React.memo(ChildOne)
-export default React.memo(ChildOne)
+ export default React.memo(ChildOne)
+//export default ChildOne
