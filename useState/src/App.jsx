@@ -13,6 +13,8 @@ import ChildFoure from './ChildFoure'
 import ChildFive from './ChildFive'
 import FetchInReact from './FetchInReact'
 import WorkingWithArrays from './WorkingWithArray'
+import NormalRouting from './NormalRouting'
+import NestedRouting from './NestedRouting'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -66,6 +68,8 @@ function App() {
       <ChildFive/>
       <FetchInReact/>
       <WorkingWithArrays/>
+      <NormalRouting/>
+      <NestedRouting/>
     </>
   )
 }
