@@ -10,6 +10,7 @@ import UseContextHooksss from './UseContextHooksss'
 import UseReduserHook from './UseReduserHook'
 import CoutomHooks from './CoutomHooks'
 import ChildFoure from './ChildFoure'
+import ChildFive from './ChildFive'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -61,6 +62,7 @@ function App() {
       <UseReduserHook/>
      
       <ChildFoure/>
+      <ChildFive/>
     </>
   )
 }
