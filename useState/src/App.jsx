@@ -15,6 +15,7 @@ import FetchInReact from './FetchInReact'
 import WorkingWithArrays from './WorkingWithArray'
 import NormalRouting from './NormalRouting'
 import NestedRouting from './NestedRouting'
+import DynamicRouting from './DynamicRouting'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -70,6 +71,7 @@ function App() {
       <WorkingWithArrays/>
       <NormalRouting/>
       <NestedRouting/>
+      <DynamicRouting/>
     </>
   )
 }
