@@ -11,6 +11,7 @@ import UseReduserHook from './UseReduserHook'
 import CoutomHooks from './CoutomHooks'
 import ChildFoure from './ChildFoure'
 import ChildFive from './ChildFive'
+import FetchInReact from './FetchInReact'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -63,6 +64,7 @@ function App() {
      
       <ChildFoure/>
       <ChildFive/>
+      <FetchInReact/>
     </>
   )
 }

@@ -204,3 +204,17 @@
 #q{
  background-color:  red;
 }
+#Names {
+  background-color: rgb(237, 200, 17);
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 5px;
+  width: 250px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
