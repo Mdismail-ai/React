@@ -12,6 +12,7 @@ import CoutomHooks from './CoutomHooks'
 import ChildFoure from './ChildFoure'
 import ChildFive from './ChildFive'
 import FetchInReact from './FetchInReact'
+import WorkingWithArrays from './WorkingWithArray'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -61,10 +62,10 @@ function App() {
       <UseContextHook/>
       <UseContextHooksss/>
       <UseReduserHook/>
-     
       <ChildFoure/>
       <ChildFive/>
       <FetchInReact/>
+      <WorkingWithArrays/>
     </>
   )
 }

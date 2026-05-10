@@ -218,3 +218,16 @@
   gap: 10px;
   justify-content: center;
 }
+#C{background-color: red;
+  border :black ;
+  border-radius : 5px;
+  width: 50px;
+  padding: 5px;
+  
+}
+#P{
+  background-color: yellow;
+  display: flex;
+  justify-self: center;
+  align-items:centeer;
+}

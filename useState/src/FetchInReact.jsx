@@ -17,14 +17,7 @@ const FetchInReact = () =>{
     <h5>address :{user.address.city}</h5>
  </div>
     )
-)}
-
-        
-
-    
-   
-  
-        </div>
+)} </div>
     )
 
 }
