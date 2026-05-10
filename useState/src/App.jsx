@@ -8,6 +8,8 @@ import UseCallBackHook from './UseCallBackHook'
 import UseContextHook from './UseContextHook'
 import UseContextHooksss from './UseContextHooksss'
 import UseReduserHook from './UseReduserHook'
+import CoutomHooks from './CoutomHooks'
+import ChildFoure from './ChildFoure'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -57,6 +59,8 @@ function App() {
       <UseContextHook/>
       <UseContextHooksss/>
       <UseReduserHook/>
+     
+      <ChildFoure/>
     </>
   )
 }
