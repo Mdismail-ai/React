@@ -1,9 +1,9 @@
 import React, { useContext } from "react"
-import {b } from "./UseContextHooksss"
+import {a} from "./UseContextHooksss"
 
 
 const ChildThird = () =>{
-    const {name , age } = useContext(b)
+    const {name , age } = useContext(a)
     return (
         <>
 <h1 className="">{name}</h1>
